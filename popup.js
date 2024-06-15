@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     greetingElement.textContent = greeting;
 
-    // Set Mumbai coordinates
+  
     const lat = 19.0760;
     const lon = 72.8777;
-    const apiKey = '1ca7d650d2113d1b4b3d851c55183952'; // Replace with your OpenWeatherMap API key
+    const apiKey = '1ca7d650d2113d1b4b3d851c55183952'; 
     const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
 
     // Fetch weather information for Mumbai
